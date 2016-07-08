@@ -1,0 +1,129 @@
+.button {
+	display: inline-block;
+	padding: $pad/2 $pad;
+	text-decoration: none;
+	border: 2px solid $jr-white;
+	margin: $pad 0 $pad*3;
+	font-size: 90%;
+
+	transition: background 0.3s ease, color 0.3s ease;
+
+	&:hover,
+	&:active,
+	&:focus {
+		background: $jr-white;
+		color: $jr-grey;
+	}
+}
+
+.site-wrapper {
+	margin: auto;
+	max-width: 40rem;
+	padding: $pad*2 $pad;
+}
+
+.site-header {
+	text-align: center;
+	margin-bottom: $pad*2;
+}
+
+.site-title {
+	display: inline-block;
+	font-size: 1.4rem;
+	text-decoration: none;
+	font-weight: bold;
+	margin-bottom: $pad;
+}
+
+.post-list {
+	li {
+		margin-bottom: $pad*2;
+	}
+
+	.post-meta {
+		display: inline-block;
+		margin-bottom: $pad/4;
+	}
+}
+
+.post-link {
+	font-size: 120%;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+.post-meta {
+	font-size: 80%;
+}
+
+.post-title {
+	font-size: 1.4rem;
+	font-weight: bold;
+	margin-bottom: $pad;
+}
+
+.post-excerpt {
+	margin-top: $pad/2;
+}
+
+.site-footer {
+	margin-top: $pad*4;
+	font-size: 90%;
+}
+
+.site-desc {
+	margin-bottom: $pad*2;
+}
+
+.site-copyright {
+	text-align: center;
+	font-size: 90%;
+}
+
+.rss-subscribe {
+	font-size: 90%;
+}
+
+@media screen and (min-width: 60rem) {
+	.site-wrapper {
+		max-width: 60rem;
+		padding: $pad*4 $pad*2;
+
+		&:after {
+			content: "";
+			clear: both;
+			display: table;
+		}
+	}
+
+	.site-header {
+		width: 33%;
+		text-align: left;
+		float: left;
+	}
+
+	.site-nav {
+		a {
+			display: block;
+			margin-bottom: $pad/4;
+		}
+	}
+
+	.page-content {
+		width: 66%;
+		padding-left: $pad*4;
+		float: right;
+	}
+
+	.site-footer {
+		margin-top: $pad;
+		width: 33%;
+		text-align: left;
+		float: left;
+		clear: left;
+	}
+
+	.site-copyright {
+		text-align: left;
+	}
+}

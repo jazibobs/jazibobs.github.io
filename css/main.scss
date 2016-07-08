@@ -1,0 +1,18 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+@charset "utf-8";
+
+$jr-grey: #212121;
+$jr-white: #ffffff;
+$jr-content: #c8c8c8;
+
+$pad: 1rem;
+
+// Import partials from `sass_dir` (defaults to `_sass`)
+@import
+  "reset",
+  "elements",
+  "layout",
+  "syntax-highlighting"
+;

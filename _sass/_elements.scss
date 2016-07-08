@@ -1,0 +1,43 @@
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+	background: $jr-grey;
+	color: $jr-content;
+	font-family: 'Anonymous Pro', monospace;
+	line-height: 1.4;
+}
+
+a {
+	color: $jr-white;
+}
+
+p {
+	margin-bottom: $pad;
+}
+
+small {
+	font-size: 90%;
+}
+
+strong {
+	font-weight: bold;
+}
+
+em {
+	font-style: italic;
+}
+
+table {
+	background: darken($jr-grey, 1%);
+	margin: $pad*2 0;
+}
+
+td {
+	padding: $pad/2 $pad;
+}
