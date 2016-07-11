@@ -7,6 +7,7 @@
     padding: $pad;
     color: #FFFFFF;
     margin: $pad*2 0;
+    overflow: auto;
 }
 /* Highlights taken from https://gist.github.com/asaaki/1007420  for Monokai theme */
 .c                 { color: #75715e }                            /* Comment                     */
