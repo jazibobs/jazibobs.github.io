@@ -33,11 +33,17 @@ em {
 	font-style: italic;
 }
 
-table {
-	background: darken($jr-grey, 1%);
-	margin: $pad*2 0;
-}
-
 td {
-	padding: $pad/2 $pad;
+	&:not(:first-child),
+	&:not(:last-child) {
+		padding: $pad/2 $pad;
+	}
+
+	&:first-child {
+		padding: $pad/2 $pad $pad/2 0;
+	}
+
+	&:last-child {
+		padding: $pad/2 0 $pad/2 $pad;
+	}
 }
