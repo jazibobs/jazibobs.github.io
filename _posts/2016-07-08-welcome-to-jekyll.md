@@ -19,7 +19,7 @@ $ cd jaredrigby
 
 {% endhighlight %}
 
-Today marks the first time I've built a site using [Jekyll](https://jekyllrb.com/) (I know I'm about 3 years late to the party) and I have to say it's been a plesure.
+Today marks the first time I've built a site using [Jekyll](https://jekyllrb.com/) (I know I'm about 3 years late to the party) and I have to say it's been a pleasure.
 
 Having an in-built SASS compiler greatly reduces the set up time required for build processes - I completely omitted my build tools from this project - and being able to mark up template designs without the ugliness of PHP and the WordPress loop can only be positive.
 
