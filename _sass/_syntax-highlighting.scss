@@ -10,7 +10,7 @@
     overflow: auto;
 }
 /* Highlights taken from https://gist.github.com/asaaki/1007420  for Monokai theme */
-.c                 { color: #75715e }                            /* Comment                     */
+.c                 { color: darken($jr-content, 20%); }                            /* Comment                     */
 .err               { color: #960050; background-color: #1e0010 } /* Error                       */
 .k                 { color: #66d9ef }                            /* Keyword                     */
 .l                 { color: #ae81ff }                            /* Literal                     */

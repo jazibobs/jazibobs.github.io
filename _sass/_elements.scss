@@ -47,3 +47,14 @@ td {
 		padding: $pad/2 0 $pad/2 $pad;
 	}
 }
+
+code {
+	background-color: lighten($jr-grey, 10%);
+	padding: $pad/4 $pad/3;
+}
+
+img {
+	display: block;
+	max-width: 100%;
+	height: auto;
+}

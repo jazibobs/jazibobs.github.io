@@ -66,6 +66,30 @@
 	margin-top: $pad/2;
 }
 
+.post-content {
+	h2 {
+		font-size: 1.2rem;
+		margin-top: $pad*2;
+		margin-bottom: $pad;
+		font-weight: bold;
+	}
+	
+	img {
+		border: 2px solid lighten($jr-grey, 5%);
+		border-bottom: 0;
+		margin: $pad*2 0;
+
+		+ em {
+			display: block;
+			margin-top: -$pad*2;
+			background-color: lighten($jr-grey, 5%);
+			padding: $pad/2;
+			margin-bottom: $pad*2;
+			font-size: 95%;
+		}
+	}
+}
+
 .site-footer {
 	margin-top: $pad*4;
 	font-size: 90%;
