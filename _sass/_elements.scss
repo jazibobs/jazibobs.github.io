@@ -51,6 +51,7 @@ td {
 code {
 	background-color: lighten($jr-grey, 10%);
 	padding: $pad/4 $pad/3;
+	display: block;
 }
 
 img {

@@ -9,14 +9,12 @@ date:   2016-07-08 13:51:36 +0100
 And now for something completely different, only taking 4 commands to get up and running (assuming you have ruby and rubygems installed on your system of course).
 
 {% highlight bash %}
-
 $ gem install jekyll
 $ jekyll new jaredrigby
 $ cd jaredrigby
 ~/jaredrigby $ jekyll serve
 
 # local jekyll site running on localhost:4000
-
 {% endhighlight %}
 
 Today marks the first time I've built a site using [Jekyll](https://jekyllrb.com/) (I know I'm about 3 years late to the party) and I have to say it's been a pleasure.
