@@ -11,7 +11,7 @@ subtitle: Freelance Web Developer
 description: > # this means to ignore newlines until "baseurl:"
   Freelance web developer interested in the web, frontend, design, tech, linux, JavaScript and WordPress
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://www.jaredrigby.co.uk" # the base hostname & protocol for your site
+url: "https://www.jaredrigby.co.uk" # the base hostname & protocol for your site
 
 # Build settings
 markdown: kramdown
