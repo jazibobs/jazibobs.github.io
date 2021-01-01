@@ -1,0 +1,19 @@
+I"<p>And now for something completely different, only taking 4 commands to get up and running (assuming you have ruby and rubygems installed on your system of course).</p>
+
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash"><span class="nv">$ </span>gem <span class="nb">install </span>jekyll
+<span class="nv">$ </span>jekyll new jaredrigby
+<span class="nv">$ </span><span class="nb">cd </span>jaredrigby
+~/jaredrigby <span class="nv">$ </span>jekyll serve
+
+<span class="c"># local jekyll site running on localhost:4000</span></code></pre></figure>
+
+<p>Today marks the first time I’ve built a site using <a href="https://jekyllrb.com/">Jekyll</a> (I know I’m about 3 years late to the party) and I have to say it’s been a pleasure.</p>
+
+<p>Having an in-built SASS compiler greatly reduces the set up time required for build processes - I completely omitted my build tools from this project - and being able to mark up template designs without the ugliness of PHP and the WordPress loop can only be positive.</p>
+
+<p>Admittedly, Jekyll does seem to have a limited number applications. The only one that comes to mind is a blog for a web developer due to it depending on creating/editing markdown files rather than using a traditional CMS.</p>
+
+<p>Even so, I’m excited to learn more about the Jekyll platform and extend the functionality of the site as I create and edit more content for it.</p>
+
+<p>You can follow the development of this site on <a href="https://github.com/jazibobs/jazibobs.github.io">Github</a>.</p>
+:ET

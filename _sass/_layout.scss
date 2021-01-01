@@ -33,6 +33,7 @@
 	text-decoration: none;
 	font-weight: bold;
 	margin-bottom: $pad;
+	color: $jr-white;
 }
 
 .post-list {
@@ -109,6 +110,11 @@
 }
 
 @media screen and (min-width: 60rem) {
+
+	.site {
+		background: linear-gradient(90deg, darken($jr-grey, 5%) calc(50% - 7.5rem), $jr-grey calc(50% - 7.501rem));
+	}
+
 	.site-wrapper {
 		max-width: 60rem;
 		padding: $pad*4 $pad*2;
@@ -121,15 +127,16 @@
 	}
 
 	.site-header {
-		width: 33%;
+		width: 17rem;
 		text-align: left;
-		float: left;
+		position: fixed;
 	}
 
 	.site-nav {
 		a {
 			display: block;
 			margin-bottom: $pad/4;
+			color: $jr-white;
 		}
 	}
 
@@ -141,10 +148,9 @@
 
 	.site-footer {
 		margin-top: $pad;
-		width: 33%;
-		text-align: left;
-		float: left;
-		clear: left;
+		width: 17rem;
+		position: fixed;
+		top: 22rem;
 	}
 
 	.site-copyright {

@@ -11,10 +11,15 @@ body {
 	color: $jr-content;
 	font-family: 'Anonymous Pro', monospace;
 	line-height: 1.4;
+	font-size: 1rem;
 }
 
 a {
-	color: $jr-white;
+	color: $jr-pink;
+
+	&:hover {
+		color: $jr-white;
+	}
 }
 
 p {
@@ -27,6 +32,27 @@ small {
 
 strong {
 	font-weight: bold;
+}
+
+ol {
+	padding-left: $pad*3;
+	list-style: decimal-leading-zero;
+	margin-bottom: $pad;
+
+	li {
+		padding-left: $pad*0.5;
+		margin-bottom: $pad/4;
+	}
+}
+
+ul {
+	padding-left: $pad;
+	list-style: square;
+	margin-bottom: $pad;
+
+	li {
+		padding-left: $pad*0.5;
+	}
 }
 
 em {

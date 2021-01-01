@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Accessiblity testing with ChromeLens"
+title:  "Accessibility testing with ChromeLens"
 author: Jared
 date:   2016-07-11 13:51:36 +0100
 ---
@@ -46,7 +46,7 @@ This feature enables you to check that the order of the tabbed elements allows u
 ![The traced tab path for jaredrigby.co.uk](/img/tab-trace-jaredrigby.png)
 *The traced tab path for this blog*
 
-This forces you to consider how different users interacte with your site. For example, if your website's main navigation is a very large menu with lots of nested links you may not have considered that users navigating the site with a keyboard would have to press the tab key *so many* times before they actually reach your content, incentivising your team to to implement a "skip to content" anchor tag or similar.
+This forces you to consider how different users interact with your site. For example, if your website's main navigation is a very large menu with lots of nested links you may not have considered that users navigating the site with a keyboard would have to press the tab key *so many* times before they actually reach your content, incentivising your team to to implement a "skip to content" anchor tag or similar.
 
 ## Final thoughts
 

@@ -1,0 +1,45 @@
+I"�<p>Google’s <a href="https://twitter.com/addyosmani/status/752517889031229440">Addy Osmani</a> drew my attention to a very interesting Chrome extension today by the name of <a href="http://chromelens.xyz/">ChromeLens</a>.</p>
+
+<p>Once installed, ChromeLens extends the functionality of the Google Chrome DevTools allowing developers to better test the accessibility of their websites for users with visual impairments and users who navigate websites primarily with the keyboard.</p>
+
+<p>Its key features include:</p>
+
+<h2 id="lenses">Lenses</h2>
+
+<p>The lenses can emulate different visual impairments such as complete vision loss, partial blindness and a number of colour blindnesses.</p>
+
+<p>These allow web developers to test that the design of their site does not accidentally impair a user’s ability to navigate and interact with a page.</p>
+
+<p>For example, by making use of the different colour blindness lenses the colour palette used throughout the site would be tested to ensure that the text content colour and page background colour have a high contrast which are not difficult to differentiate between.</p>
+
+<h2 id="accessibility-checks">Accessibility checks</h2>
+
+<p>The accessibility checks button runs an audit of the current webpage using <a href="https://github.com/GoogleChrome/accessibility-developer-tools">Google’s accessibility developer tools</a> and provides recommendations on how the page can be improved for accessibility.</p>
+
+<p>When I ran it on this site it highlighted that the <code class="language-plaintext highlighter-rouge">html</code> tag was missing its language attribute and provided <a href="https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#ax_html_01">a link to the Chrome accessibility DevTools wiki</a> explaining why it’s important that I fix this issue.</p>
+
+<figure class="highlight"><pre><code class="language-html" data-lang="html"><span class="c">&lt;!-- Bad original markup! --&gt;</span>
+<span class="nt">&lt;html&gt;</span>
+
+<span class="c">&lt;!-- Good accessible markup --&gt;</span>
+<span class="nt">&lt;html</span> <span class="na">lang=</span><span class="s">"en"</span><span class="nt">&gt;</span></code></pre></figure>
+
+<p>A very handy little feature allowing us all to create more accessible sites step by step.</p>
+
+<h2 id="trace-tab-path">Trace tab path</h2>
+
+<p>The final feature is <em>Trace tab path</em>, this tool allows you to visually see the focus order of elements when a user is navigating exclusively with the tab key.</p>
+
+<p>This feature enables you to check that the order of the tabbed elements allows users to easily navigate through the site’s content from beginning to end while tracing the route between the focused elements.</p>
+
+<p><img src="/img/tab-trace-jaredrigby.png" alt="The traced tab path for jaredrigby.co.uk" />
+<em>The traced tab path for this blog</em></p>
+
+<p>This forces you to consider how different users interact with your site. For example, if your website’s main navigation is a very large menu with lots of nested links you may not have considered that users navigating the site with a keyboard would have to press the tab key <em>so many</em> times before they actually reach your content, incentivising your team to to implement a “skip to content” anchor tag or similar.</p>
+
+<h2 id="final-thoughts">Final thoughts</h2>
+
+<p>My initial impressions of this tool are very positive, as the ChromeLens website states itself <strong>more than 280 million people worldwide are visually impaired</strong> so having a tool which aids developers in creating a more open web can only be a good thing.</p>
+
+<p>I’ll be watching the development of ChromeLens very closely and look forward to seeing how the team build upon this solid foundation.</p>
+:ET
