@@ -20,4 +20,4 @@ radioButtons.forEach(function(radio) {
             bodyEl.classList.add(radio.value);
         }
     });
-})
+});
