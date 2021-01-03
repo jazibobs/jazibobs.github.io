@@ -53,3 +53,8 @@ To keep out attackers you need to think and act like an attacker. To protect you
 - [pwn.college](https://pwn.college/) - from Arizona State University comes another platform for learning about cybersecurity. pwn.college provides lectures (on YouTube), office hours (on Twitch), a live chat server (on Discord) and a number of hosted CTF challenges for students to attempt. This course is aimed at students who have previously studied computer science but have not focused on cybersecurity before. As such, students will be expected to already have knowledge of Linux, computer architecture and low level programming with assembly.
 
 - [TryHackMe (subscription needed)](https://tryhackme.com/) - based in the U.K., TryHackMe is another platform that provides resources for learning cybersecurity in the form of small challenges known as _rooms_. While some of their content is locked behind a paywall, a great set of introductory challenges were released for Xmas 2020 in the form of their [Advent of Cyber](https://tryhackme.com/room/adventofcyber2) challenge.
+
+## Final thoughts
+There is a growing need for penetration testers and infosec experts. As the world is ever more inter-connected, it's more and more important that computer scientists are aware of the steps required to keep their systems secure. It is reported that there is a global shortage of computer security experts which is part of the reason why platforms like PicoCTF were originally created. 
+
+The sooner you start exploring computer system security, the better prepared you will be to build robust, secure systems in the future.
