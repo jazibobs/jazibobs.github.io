@@ -16,9 +16,14 @@ body {
 
 a {
 	color: $jr-pink;
+	transition: color 0.4s ease;
 
 	&:hover {
 		color: $jr-white;
+	}
+
+	.light & {
+		color: $jr-pink;
 	}
 }
 

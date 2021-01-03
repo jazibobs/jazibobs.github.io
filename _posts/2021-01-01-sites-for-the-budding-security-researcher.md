@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "PenTesting and Security Research resources for beginners"
+title:  "PenTesting and security research resources for beginners"
 author: Jared
 date:   2021-01-01 16:16:00 +0800
 ---

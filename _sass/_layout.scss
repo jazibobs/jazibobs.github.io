@@ -1,18 +1,65 @@
+.site {
+	background: $jr-grey;
+
+	&.light {
+		background: $jr-white;
+		color: $jr-grey;
+	}
+}
+
 .button {
 	display: inline-block;
 	padding: $pad/2 $pad;
 	text-decoration: none;
 	border: 2px solid $jr-white;
+	color: $jr-white;
 	margin: $pad 0 $pad*3;
 	font-size: 90%;
 
-	transition: background 0.3s ease, color 0.3s ease;
+	transition: background-color 0.3s ease, color 0.3s ease;
 
 	&:hover,
 	&:active,
 	&:focus {
 		background: $jr-white;
 		color: $jr-grey;
+	}
+
+	.light & {
+		border: 2px solid $jr-grey;
+		color: $jr-grey;
+
+		&:hover,
+		&:active,
+		&:focus {
+			background: $jr-pink;
+			color: $jr-white;
+		}
+	}
+}
+
+.theme-toggle {
+	border: 2px solid $jr-white;
+	background: $jr-grey;
+	padding: $pad/2;
+	margin: $pad*2 0;
+	display: flex;
+	justify-content: space-around;
+
+	label {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+
+	[type="radio"] {
+		margin: 0 $pad/2;
+		padding: 0;
+	}
+
+	.light & {
+		border: 2px solid $jr-grey;
+		background: $jr-white;
 	}
 }
 
@@ -25,6 +72,16 @@
 .site-header {
 	text-align: center;
 	margin-bottom: $pad*2;
+}
+
+.site-nav {
+	a {
+		color: $jr-white;
+
+		.light & {
+			color: $jr-pink;
+		}
+	}
 }
 
 .site-title {
@@ -94,6 +151,7 @@
 .site-footer {
 	margin-top: $pad*4;
 	font-size: 90%;
+	text-align: center;
 }
 
 .site-desc {
@@ -113,6 +171,21 @@
 
 	.site {
 		background: linear-gradient(90deg, darken($jr-grey, 5%) calc(50% - 7.5rem), $jr-grey calc(50% - 7.501rem));
+
+		&.light {
+			background: $jr-white;
+			position: relative;
+
+			&:before {
+				content: "";
+				position: fixed;
+				top: 0;
+				left: 0;
+				width: calc(50% - 7.5rem);
+				height: 100vh;
+				background: linear-gradient(150deg, $jr-pink, $jr-orange 80%);
+			}
+		}
 	}
 
 	.site-wrapper {
@@ -132,11 +205,23 @@
 		position: fixed;
 	}
 
+	.site-title {
+		color: $jr-white;
+
+		.light & {
+			color: $jr-white;
+		}
+	}
+
 	.site-nav {
 		a {
 			display: block;
 			margin-bottom: $pad/4;
 			color: $jr-white;
+
+			.light & {
+				color: $jr-white;
+			}
 		}
 	}
 
@@ -150,7 +235,8 @@
 		margin-top: $pad;
 		width: 17rem;
 		position: fixed;
-		top: 22rem;
+		top: 26rem;
+		text-align: left;
 	}
 
 	.site-copyright {
