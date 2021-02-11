@@ -1,6 +1,7 @@
 # Welcome to Jekyll!
 #
 # This config file is meant for settings that affect your whole blog, values
+<<<<<<< HEAD
 # which you are expected to set up once and rarely edit after that. If you find
 # yourself editing this file very often, consider using Jekyll's data files
 # feature for the data you need to update frequently.
@@ -68,3 +69,19 @@ sass:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
+=======
+# which you are expected to set up once and rarely need to edit after that.
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'jekyll serve'. If you change this file, please restart the server process.
+
+# Site settings
+title: Jared Rigby
+subtitle: CS Educator
+description: > # this means to ignore newlines until "baseurl:"
+  Computer science teacher interested in the web, linux, programming, security and CTF.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://www.jaredrigby.co.uk" # the base hostname & protocol for your site
+
+# Build settings
+markdown: kramdown
+>>>>>>> jgrv1/master

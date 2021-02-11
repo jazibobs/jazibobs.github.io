@@ -1,0 +1,245 @@
+.site {
+	background: $jr-grey;
+
+	&.light {
+		background: $jr-white;
+		color: $jr-grey;
+	}
+}
+
+.button {
+	display: inline-block;
+	padding: $pad/2 $pad;
+	text-decoration: none;
+	border: 2px solid $jr-white;
+	color: $jr-white;
+	margin: $pad 0 $pad*3;
+	font-size: 90%;
+
+	transition: background-color 0.3s ease, color 0.3s ease;
+
+	&:hover,
+	&:active,
+	&:focus {
+		background: $jr-white;
+		color: $jr-grey;
+	}
+
+	.light & {
+		border: 2px solid $jr-grey;
+		color: $jr-grey;
+
+		&:hover,
+		&:active,
+		&:focus {
+			background: $jr-pink;
+			color: $jr-white;
+		}
+	}
+}
+
+.theme-toggle {
+	border: 2px solid $jr-white;
+	background: $jr-grey;
+	padding: $pad/2;
+	margin: $pad*2 0;
+	display: flex;
+	justify-content: space-around;
+
+	label {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+
+	[type="radio"] {
+		margin: 0 $pad/2;
+		padding: 0;
+	}
+
+	.light & {
+		border: 2px solid $jr-grey;
+		background: $jr-white;
+	}
+}
+
+.site-wrapper {
+	margin: auto;
+	max-width: 40rem;
+	padding: $pad*2 $pad;
+}
+
+.site-header {
+	text-align: center;
+	margin-bottom: $pad*2;
+}
+
+.site-nav {
+	a {
+		color: $jr-white;
+
+		.light & {
+			color: $jr-pink;
+		}
+	}
+}
+
+.site-title {
+	display: inline-block;
+	font-size: 1.4rem;
+	text-decoration: none;
+	font-weight: bold;
+	margin-bottom: $pad;
+	color: $jr-white;
+}
+
+.post-list {
+	li {
+		margin-bottom: $pad*2;
+	}
+
+	.post-meta {
+		display: inline-block;
+		margin-bottom: $pad/4;
+	}
+}
+
+.post-link {
+	font-size: 120%;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+.post-meta {
+	font-size: 80%;
+}
+
+.post-title {
+	font-size: 1.4rem;
+	font-weight: bold;
+	margin-bottom: $pad;
+}
+
+.post-excerpt {
+	margin-top: $pad/2;
+}
+
+.post-content {
+	h2 {
+		font-size: 1.2rem;
+		margin-top: $pad*2;
+		margin-bottom: $pad;
+		font-weight: bold;
+	}
+	
+	img {
+		border: 2px solid lighten($jr-grey, 5%);
+		border-bottom: 0;
+		margin: $pad*2 0;
+
+		+ em {
+			display: block;
+			margin-top: -$pad*2;
+			background-color: lighten($jr-grey, 5%);
+			padding: $pad/2;
+			margin-bottom: $pad*2;
+			font-size: 95%;
+		}
+	}
+}
+
+.site-footer {
+	margin-top: $pad*4;
+	font-size: 90%;
+	text-align: center;
+}
+
+.site-desc {
+	margin-bottom: $pad*2;
+}
+
+.site-copyright {
+	text-align: center;
+	font-size: 90%;
+}
+
+.rss-subscribe {
+	font-size: 90%;
+}
+
+@media screen and (min-width: 60rem) {
+
+	.site {
+		background: linear-gradient(90deg, darken($jr-grey, 5%) calc(50% - 7.5rem), $jr-grey calc(50% - 7.501rem));
+
+		&.light {
+			background: $jr-white;
+			position: relative;
+
+			&:before {
+				content: "";
+				position: fixed;
+				top: 0;
+				left: 0;
+				width: calc(50% - 7.5rem);
+				height: 100vh;
+				background: linear-gradient(150deg, $jr-pink, $jr-orange 80%);
+			}
+		}
+	}
+
+	.site-wrapper {
+		max-width: 60rem;
+		padding: $pad*4 $pad*2;
+
+		&:after {
+			content: "";
+			clear: both;
+			display: table;
+		}
+	}
+
+	.site-header {
+		width: 17rem;
+		text-align: left;
+		position: fixed;
+	}
+
+	.site-title {
+		color: $jr-white;
+
+		.light & {
+			color: $jr-white;
+		}
+	}
+
+	.site-nav {
+		a {
+			display: block;
+			margin-bottom: $pad/4;
+			color: $jr-white;
+
+			.light & {
+				color: $jr-white;
+			}
+		}
+	}
+
+	.page-content {
+		width: 66%;
+		padding-left: $pad*4;
+		float: right;
+	}
+
+	.site-footer {
+		margin-top: $pad;
+		width: 17rem;
+		position: fixed;
+		top: 26rem;
+		text-align: left;
+	}
+
+	.site-copyright {
+		text-align: left;
+	}
+}
