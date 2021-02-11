@@ -1,0 +1,26 @@
+.section-nav {
+    font-weight: bold;
+
+    &--cs {
+        background: $cs;
+    }
+
+    &__list {
+        list-style: none;
+        display: flex;
+        margin: auto;
+        justify-content: flex-end;
+        padding-top: $pad*0.75;
+        padding-bottom: $pad*0.75;
+    }
+
+    &__link {
+        text-decoration: none;
+        font-weight: bold;
+        color: $black;
+
+        &:not(first-child) {
+            margin-left: $pad;
+        }
+    }
+}

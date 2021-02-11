@@ -4,8 +4,30 @@
     margin: auto;
 }
 
+.hero {
+    &__content {
+        padding: $pad*3 $pad;
+        display: flex;
+        align-items: center;
+    }
+
+    &__text {
+        width: 50%;
+        padding-right: $pad;
+    }
+
+    &__image {
+        width: 50%;
+        padding-left: $pad;
+    }
+}
+
 .focus {
-    background: lighten($black, 90%);
+    background: lighten($black, 80%);
+
+    &--cs {
+        background: lighten($cs, 40%);
+    }
 
     &__title {
         margin-top: $pad;
@@ -29,13 +51,16 @@
         display: flex;
         flex-direction: column;
         justify-content: space-between;
-        color: $white;
+        color: $black;
         font-weight: bold;
         text-decoration: none;
         box-shadow: 2px 2px 15px -5px $black;
         border-radius: $pad/4;
         overflow: hidden;
         transition: transform 0.4s ease;
+        border-top: 5px solid;
+        border-bottom: 5px solid;
+        background: lighten($black, 90%);
 
         &:hover,
         &:focus {
@@ -44,15 +69,15 @@
     }
 
     &__link--learn {
-        background: $cs;
+        border-color: $cs;
     }
 
     &__link--hacking {
-        background: $hack;
+        border-color: $hack;
     }
 
     &__link--project {
-        background: $make;
+        border-color: $make;
     }
 
     &__img {

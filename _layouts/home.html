@@ -10,7 +10,15 @@
     {% include header.html %} 
 
     <div class="hero">
-      <div class="wrapper"></div>
+      <div class="hero__content wrapper">
+        <div class="hero__text">
+          <h1>{{ page.title }}</h1>
+          {{ content }}
+        </div>
+        <div class="hero__image">
+          <img src="../assets/undraw_Code_thinking_re_gka2.svg" alt="">
+        </div>
+      </div>
     </div>
 
     <div class="focus">
@@ -24,15 +32,15 @@
             </a>
           </li>
           <li class="feature__item">
-            <a class="feature__link feature__link--hacking" href="/hacking">
-              <img class="feature__img" src="../assets/undraw_hacker_mind_6y85.svg" alt="">
-              <span class="feature__title">Cybersecurity</span>
-            </a>
-          </li>
-          <li class="feature__item">
             <a class="feature__link feature__link--project" href="/projects">
               <img class="feature__img" src="../assets/undraw_design_components_9vy6.svg" alt="">
               <span class="feature__title">Projects</span>
+            </a>
+          </li>
+          <li class="feature__item">
+            <a class="feature__link feature__link--hacking" href="/hacking">
+              <img class="feature__img" src="../assets/undraw_hacker_mind_6y85.svg" alt="">
+              <span class="feature__title">Cybersecurity</span>
             </a>
           </li>
         </ul>
