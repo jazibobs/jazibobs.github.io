@@ -108,3 +108,18 @@
         }
     }
 }
+
+.title {
+    background: lighten($black, 90%);
+
+    &__main {
+        margin: 0;
+    }
+
+    &__sub {
+        display: block;
+        margin-top: -$pad/8;
+        font-size: 80%;
+        text-transform: uppercase;
+    }
+}

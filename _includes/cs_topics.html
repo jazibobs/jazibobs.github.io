@@ -1,0 +1,35 @@
+<div class="focus focus--cs">
+    <div class="wrapper">
+      <h2 class="focus__title">IGCSE Paper 1 - Theory of Computer Science</h2>
+      <ul class="topic">
+      {% assign igcse_paper_1 = site.cs_resources | where: "level", "igcse" | where: "paper", 1 %}
+      
+      {% for topic in igcse_paper_1 %}
+      
+        <li class="topic__item">
+          <a class="topic__link" href="{{ topic.url }}">
+            <span class="topic__code">{{topic.syllabus}}</span>
+            {{ topic.title}}
+          </a>
+        </li>
+      
+      {% endfor %}
+      </ul>
+      
+      <h2 class="focus__title">IGCSE Paper 2 - Practical Problem-solving and Programming</h2>
+      <ul class="topic">
+      {% assign igcse_paper_2 = site.cs_resources | where: "level", "igcse" | where: "paper", 2 %}
+      
+      {% for topic in igcse_paper_2 %}
+      
+        <li class="topic__item">
+          <a class="topic__link" href="{{ topic.url }}">
+            <span class="topic__code">{{topic.syllabus}}</span>
+            {{ topic.title}}
+          </a>
+        </li>
+      
+      {% endfor %}
+      </ul>
+    </div>
+</div>

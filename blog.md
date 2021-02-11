@@ -1,4 +1,4 @@
 ---
-title: Misc. blogs and rambling
+title: Recent blog posts
 layout: blog
 ---

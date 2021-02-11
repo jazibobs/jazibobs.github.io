@@ -1,5 +1,7 @@
 html {
     box-sizing: border-box;
+    background: $black;
+    height: 100%;
 }
 
 *, *:before, *:after {
@@ -8,8 +10,63 @@ html {
 
 body {
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    background: $white;
+    line-height: 1.5;
+}
+
+h2 {
+    margin: $pad*2 0 $pad/2;
+}
+
+a {
+    color: $black;
 }
 
 img {
     max-width: 100%;
+}
+
+code {
+    padding: $pad/4;
+    border-radius: $pad/8;
+    background: lighten($black, 90%);
+}
+
+blockquote {
+    margin: $pad 0;
+    padding: $pad/2;
+    background: lighten($black, 90%);
+    border-left: 5px solid $black;
+
+    ul {
+        margin: 0;
+        list-style: none;
+        padding: 0;
+    }
+
+    li {
+        margin: $pad/2;
+    }
+}
+
+table {
+    margin: $pad 0;
+    width: 100%;
+    border: 1px solid lighten($black, 80%);
+    table-layout: fixed;
+    text-align: center;
+}
+
+tr {
+    &:nth-child(odd) {
+        background: lighten($black, 90%);
+    }
+}
+
+td {
+    padding: $pad/4;
+
+    &:not(:last-child) {
+        border-right: 1px solid lighten($black, 80%);
+    }
 }

@@ -1,6 +1,7 @@
 ---
 layout: page
 title: About
+image: undraw_quiz_nlyh.svg
 permalink: /about/
 ---
 

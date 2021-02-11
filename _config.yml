@@ -35,6 +35,7 @@ collections:
   cs_resources:
     output: true
     permalink: /cs/:path
+    sort_by: syllabus
   hacking:
     output: true
     permalink: /hacking/:path
