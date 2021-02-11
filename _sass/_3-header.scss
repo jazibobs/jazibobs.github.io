@@ -20,13 +20,13 @@
         margin: (-$pad) (0) (-$pad*1.5) (-$pad);
         box-shadow: 2px 2px 15px -5px $black;
 
-        @media screen and (max-width: 50rem) {
+        @media screen and (max-width: 800px) {
             margin: 0 0;
         }
     }
 
     &__nav {
-        @media screen and (max-width: 50rem) {
+        @media screen and (max-width: 800px) {
             display: flex;
             flex-direction: column;
             justify-content: flex-end;

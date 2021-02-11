@@ -6,7 +6,7 @@
     &--content {
         padding-right: $pad*8;
 
-        @media screen and (max-width: 50rem) {
+        @media screen and (max-width: 800px) {
             padding-right: $pad;
         }
     }
@@ -22,7 +22,7 @@
         display: flex;
         align-items: center;
 
-        @media screen and (max-width: 50rem) {
+        @media screen and (max-width: 800px) {
             display: block;
         }
     }
@@ -31,7 +31,7 @@
         width: 50%;
         padding-right: $pad;
 
-        @media screen and (max-width: 50rem) {
+        @media screen and (max-width: 800px) {
             width: 100%;
             padding: 0;
         }
@@ -41,7 +41,7 @@
         width: 50%;
         padding-left: $pad;
 
-        @media screen and (max-width: 50rem) {
+        @media screen and (max-width: 800px) {
             width: 100%;
             padding: 0;
             margin-top: $pad*2;
@@ -70,7 +70,7 @@
     display: flex;
     justify-content: space-between;
 
-    @media screen and (max-width: 50rem) {
+    @media screen and (max-width: 800px) {
         display: block;
     }
 
@@ -78,7 +78,7 @@
         width: calc(33% - #{$pad});
         display: flex;
 
-        @media screen and (max-width: 50rem) {
+        @media screen and (max-width: 800px) {
             width: 100%;
         }
     }
@@ -104,7 +104,7 @@
             transform: translateY(-$pad/2);
         }
 
-        @media screen and (max-width: 50rem) {
+        @media screen and (max-width: 800px) {
             margin-bottom: $pad*2;
         }
     }
@@ -178,7 +178,7 @@
         width: calc(50% - #{$pad});
         margin: $pad/2 0;
 
-        @media screen and (max-width: 50rem) {
+        @media screen and (max-width: 800px) {
             width: 100%;
         }
     }
