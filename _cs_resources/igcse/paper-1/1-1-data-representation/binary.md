@@ -2,6 +2,7 @@
 title: Binary
 level: igcse
 paper: 1
+listed: true
 topic: Data Representation
 syllabus: 1.1.1
 layout: cs_single

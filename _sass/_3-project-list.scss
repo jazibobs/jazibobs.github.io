@@ -1,0 +1,35 @@
+.project-list {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+    &__item {
+        width: calc(50% - #{$pad});
+        margin-bottom: $pad*2;
+    }
+
+    &__link {
+        background: lighten($black, 90%);
+        display: block;
+        text-align: center;
+        font-weight: bold;
+        text-decoration: none;
+        transition: transform 0.4s ease;
+        border-top: 5px solid $make;
+        border-bottom: 5px solid $make;
+        box-shadow: 2px 2px 10px -5px $black;
+        overflow: hidden;
+        border-radius: $pad/4;
+
+        &:hover,
+        &:focus {
+            transform: translateY(-$pad/2);
+        }
+    }
+
+    &__title {
+        display: block;
+        padding: $pad/2;
+    }
+}

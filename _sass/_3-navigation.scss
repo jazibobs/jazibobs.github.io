@@ -5,6 +5,14 @@
         background: $cs;
     }
 
+    &--projects {
+        background: $make;
+    }
+
+    &--hacking {
+        background: $hack;
+    }
+
     &__list {
         list-style: none;
         display: flex;

@@ -2,6 +2,8 @@
 title: IGCSE Computer Science
 layout: cs_single
 syllabus: 0478
+level: igcse
+listed: false
 topic: CIE
 ---
 

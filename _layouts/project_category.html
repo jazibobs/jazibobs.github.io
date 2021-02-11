@@ -9,24 +9,19 @@
   <body>
     
     {% include header.html %} 
-    {% include nav_cs.html %} 
+    {% include nav_projects.html %} 
 
     <div class="title">
-      <div class="wrapper">
-        <h1 class="title__main">{{ page.title }}</h1>
-
-        {% if page.syllabus %}
-        <span class="title__sub">{{page.syllabus}} - {{ page.topic }}</span>
-        {% endif %}
-
-      </div>
+        <div class="wrapper">
+            <h1 class="title__main">{{ page.title }}</h1>
+        </div>
     </div>
 
-    <div class="wrapper wrapper--content">
+    <div class="wrapper">
       {{ content }}
     </div>
 
-    {% include cs_topics.html %}
+    {% include project_list.html %}
     {% include footer.html %}
 
   </body>
