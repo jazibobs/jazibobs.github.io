@@ -20,6 +20,11 @@
         justify-content: flex-end;
         padding-top: $pad*0.75;
         padding-bottom: $pad*0.75;
+
+        @media screen and (max-width: 50rem) {
+            justify-content: center;
+            align-items: center;
+        }
     }
 
     &__link {
@@ -29,6 +34,17 @@
 
         &:not(first-child) {
             margin-left: $pad;
+        }
+
+
+        @media screen and (max-width: 50rem) {
+            margin: 0 $pad/2;
+            display: block;
+            text-align: center;
+
+            &:not(first-child) {
+                margin-left: $pad/2;
+            }
         }
     }
 }

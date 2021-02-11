@@ -5,6 +5,10 @@
 
     &--content {
         padding-right: $pad*8;
+
+        @media screen and (max-width: 50rem) {
+            padding-right: $pad;
+        }
     }
 }
 
@@ -17,16 +21,32 @@
         padding: $pad*3 $pad;
         display: flex;
         align-items: center;
+
+        @media screen and (max-width: 50rem) {
+            display: block;
+        }
     }
 
     &__text {
         width: 50%;
         padding-right: $pad;
+
+        @media screen and (max-width: 50rem) {
+            width: 100%;
+            padding: 0;
+        }
     }
 
     &__image {
         width: 50%;
         padding-left: $pad;
+
+        @media screen and (max-width: 50rem) {
+            width: 100%;
+            padding: 0;
+            margin-top: $pad*2;
+            max-width: 25rem;
+        }
     }
 }
 
@@ -50,13 +70,22 @@
     display: flex;
     justify-content: space-between;
 
+    @media screen and (max-width: 50rem) {
+        display: block;
+    }
+
     &__item {
         width: calc(33% - #{$pad});
         display: flex;
+
+        @media screen and (max-width: 50rem) {
+            width: 100%;
+        }
     }
 
     &__link {
         display: flex;
+        width: 100%;
         flex-direction: column;
         justify-content: space-between;
         color: $black;
@@ -73,6 +102,10 @@
         &:hover,
         &:focus {
             transform: translateY(-$pad/2);
+        }
+
+        @media screen and (max-width: 50rem) {
+            margin-bottom: $pad*2;
         }
     }
 
@@ -144,6 +177,10 @@
         display: block;
         width: calc(50% - #{$pad});
         margin: $pad/2 0;
+
+        @media screen and (max-width: 50rem) {
+            width: 100%;
+        }
     }
 
     &__link {

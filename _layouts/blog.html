@@ -19,12 +19,15 @@
 
     {{ content }}
     
-    <div class="wrapper">
+    <div class="wrapper wrapper--content">
       <ul class="posts">
           {% for post in site.posts %}
           <li class="post__item">
               <a href="{{ post.url }}" class="post__link">{{ post.title }}</a>
-              <span class="post__date">{{ post.date | date: '%B %d, %Y' }}</span>
+              <br>
+              <small class="post__date">{{ post.date | date: '%B %d, %Y' }}</small>
+              <br>
+              <br>
           </li>
           {% endfor %}
       </ul>
