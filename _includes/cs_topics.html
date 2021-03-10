@@ -2,9 +2,9 @@
     <div class="wrapper">
       <h2 class="focus__title">All topics...</h2>
       <ul class="topic">
-      {% assign igcse_paper = site.cs_resources | where: "level", page.level | where: "listed", "true" %}
+      {% assign course = site.cs_resources | where: "level", page.level | where: "listed", "true" %}
       
-      {% for topic in igcse_paper %}
+      {% for topic in course %}
       
         <li class="topic__item">
           <a class="topic__link" href="{{ topic.url }}">
