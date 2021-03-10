@@ -32,6 +32,11 @@ img {
     max-width: 100%;
 }
 
+pre {
+    padding: $pad/2;
+    background: lighten($black, 90%);
+}
+
 code {
     padding: $pad/4;
     border-radius: $pad/8;

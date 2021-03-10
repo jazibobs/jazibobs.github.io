@@ -2,11 +2,9 @@
  * Syntax highlighting styles
  */
 .highlight pre, pre, .highlight .hll {
-    background-color: lighten($black, 30%);
-    padding: $pad;
-    margin: $pad*2 0;
-    overflow: auto;
+    margin: $pad 0 $pad*2;
 }
+
 /* Highlights taken from https://gist.github.com/asaaki/1007420  for Monokai theme */
 .c                 { color: $white;   }                            /* Comment                     */
 .err               { color: #960050; background-color: #1e0010 } /* Error                       */
