@@ -157,11 +157,13 @@
 
     &__main {
         margin: $pad 0 0;
+        max-width: 40rem;
+        line-height: 1.2;
     }
 
     &__sub {
         display: block;
-        margin-top: -$pad/8;
+        margin-top: 0;
         font-size: 80%;
         text-transform: uppercase;
     }
@@ -194,5 +196,20 @@
         border-radius: $pad/8;
         border-left: 5px solid $cs;
         box-shadow: 2px 2px 10px -5px $black;
+    }
+}
+
+.story-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: $pad 0;
+
+    &__frame {
+        width: 50%;
+
+        &:last-child {
+            text-align: right;
+        }
     }
 }

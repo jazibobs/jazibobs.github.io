@@ -39,21 +39,21 @@ DDL does not put any data into the database.
 ### DDL Examples
 
 The following line of code defines a new database called `ConcertManagementSystem`
-```SQL
+{% highlight SQL %}
 CREATE DATABASE ConcertManagementSystem;​
-```
+{% endhighlight %}
 
 After creating the database, we are able to declare 2 tables, `Band` and `BandBooking`
-```SQL
+{% highlight SQL %}
 CREATE TABLE Band (​
   BandName varchar(25),​
   NumberOfMembers number(1),​
 
   % etc...​
 );​
-```
+{% endhighlight %}
 
-```SQL
+{% highlight SQL %}
 CREATE TABLE BandBooking (​
   BookingID number(10)​
   BandName varchar(25),​
@@ -61,19 +61,19 @@ CREATE TABLE BandBooking (​
 
   % etc...
 );
-```
+{% endhighlight %}
 
 And then declare the primary key and foreign keys for each table...
 
-```SQL
+{% highlight SQL %}
 ALTER TABLE Band 
     ADD PRIMARY KEY (BandName);​
-```
+{% endhighlight %}
 
-```SQL
+{% highlight SQL %}
 ALTER TABLE BandBooking 
     ADD FOREIGN KEY (BandName REFERENCES Band(BandName));
-```
+{% endhighlight %}
 
 ## Data manipulation language (DML)
 
@@ -84,25 +84,25 @@ Once your tables are full of data, DML can be used to update and maintain data i
 ### DML Examples
 
 How to insert data into an existing table...
-```SQL
+{% highlight SQL %}
 INSERT INTO BandBooking (BandName, BookingID) ​
   VALUES ('Radiohead', 2021011201);​
-```
+{% endhighlight %}
 ​
 How to update data in an existing table...
-```SQL
+{% highlight SQL %}
 UPDATE Band SET NumberOfMembers = 4 ​
   WHERE BandName = 'Radiohead';​
-```
+{% endhighlight %}
 ​
 How to delete data from a table
-```SQL
+{% highlight SQL %}
 DELETE FROM Band WHERE BandName = 'Radiohead';
-```
+{% endhighlight %}
 
 How to query (find) data in the database
-```SQL
+{% highlight SQL %}
 SELECT BandName 
     FROM BandBooking
     WHERE Headlining = "Y";
-```
+{% endhighlight %}

@@ -43,7 +43,7 @@ The final feature is *Trace tab path*, this tool allows you to visually see the 
 
 This feature enables you to check that the order of the tabbed elements allows users to easily navigate through the site's content from beginning to end while tracing the route between the focused elements.
 
-![The traced tab path for jaredrigby.co.uk](/img/tab-trace-jaredrigby.png)
+![The traced tab path for jaredrigby.co.uk](/assets/blog/tab-trace-jaredrigby.png)
 *The traced tab path for this blog*
 
 This forces you to consider how different users interact with your site. For example, if your website's main navigation is a very large menu with lots of nested links you may not have considered that users navigating the site with a keyboard would have to press the tab key *so many* times before they actually reach your content, incentivising your team to to implement a "skip to content" anchor tag or similar.

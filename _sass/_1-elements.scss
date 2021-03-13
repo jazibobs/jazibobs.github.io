@@ -30,17 +30,22 @@ a {
 
 img {
     max-width: 100%;
+    display: block;
 }
 
 pre {
     padding: $pad/2;
-    background: lighten($black, 90%);
+    background: lighten($black, 10%);
+    
 }
 
 code {
-    padding: $pad/4;
-    border-radius: $pad/8;
-    background: lighten($black, 90%);
+    color: $white;
+    background: lighten($black, 10%);
+}
+
+p > code {
+    padding: $pad/4 $pad/2;
 }
 
 blockquote {
