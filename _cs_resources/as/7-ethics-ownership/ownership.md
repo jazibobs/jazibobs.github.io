@@ -61,13 +61,9 @@ Shareware is software that is free to try.
 
 Users then usually have to pay if they want to continue using the software.
 
-<div class="table-wrapper">
-<table>
 | Type of license | Commercial | Open Source | Free Software | Freeware | Shareware | 
 | --- | --- | --- | --- | --- |
 | The source code is shared | ❌ | ✔ | ✔  | ❌ | ❌ |
 | Copies of the software can be made | ❌ | ✔ | ✔ | ❌ | ❌ |
 | Any modifications to the source code **must** be shared | ❌ | ❌ | ✔ | ❌ | ❌ |
 | The software is available without payment | ❌ | ✔ | ✔ | ✔ | ✔ | 
-</table>
-</div>
