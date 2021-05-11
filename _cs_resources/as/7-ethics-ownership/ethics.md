@@ -23,9 +23,7 @@ The code consists of 8 main sections with a number of sub-sections.
 ## The 8 main sections
 1. **Public** - Software engineers should act with the public's best interest in mind.
 
-2. **Client and Employer** - Software engineers should act in the interest of their employer and client.
-
-*as long as their interests are consistent with the public’s interests...*
+2. **Client and Employer** - Software engineers should act in the interest of their employer and client (*as long as their interests are consistent with the public’s interests)*.
 
 3. **Product** - Software engineers should make sure that the products they are building meet the highest possible standards.
 
