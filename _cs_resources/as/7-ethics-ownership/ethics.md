@@ -36,3 +36,5 @@ The code consists of 8 main sections with a number of sub-sections.
 7. **Colleagues** - Software engineers should be fair and supportive towards their colleagues.
 
 8. **Self** - Software engineers should participate in lifelong learning about their profession and should always promote an ethical approach within their profession.
+
+[A full copy of the ACM/IEEE code of ethics can be found on the ACM website.](https://ethics.acm.org/code-of-ethics/software-engineering-code/)
