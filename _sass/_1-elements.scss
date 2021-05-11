@@ -79,6 +79,10 @@ tr {
     }
 }
 
+th {
+    border-bottom: 2px solid lighten($black, 80%);
+}
+
 td {
     padding: $pad/4;
 
