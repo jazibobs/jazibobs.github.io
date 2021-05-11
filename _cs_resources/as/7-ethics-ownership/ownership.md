@@ -12,7 +12,7 @@ layout: cs_single
 
 | Type of license | Commercial | Open Source | Free Software | Freeware | Shareware | 
 | --- | --- | --- | --- | --- |
-| The source code is shared | | | | |
-| Copies of the software can be made | | | | |
-| Any modifications to the source code **must** be shared | | | | |
-| The software is available without payment | | | | |
+| The source code is shared | ❌ | ✔ | ✔  | ❌ | ❌ |
+| Copies of the software can be made | ❌ | ✔ | ✔ | ❌ | ❌ |
+| Any modifications to the source code **must** be shared | ❌ | ❌ | ✔ | ❌ | ❌ |
+| The software is available without payment | ❌ | ✔ | ✔ | ✔ | ✔ | 

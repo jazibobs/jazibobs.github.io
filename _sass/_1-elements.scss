@@ -82,6 +82,7 @@ tr {
 th {
     padding: $pad/4;
     border-bottom: 2px solid lighten($black, 80%);
+    background: lighten($black, 90%);
 
     &:not(:last-child) {
         border-right: 1px solid lighten($black, 80%);
