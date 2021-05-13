@@ -13,7 +13,7 @@ twitter_username: jazibobs
 github_username:  jazibobs
 
 # Build settings
-theme: jgr-theme
+# theme: jgr-theme
 
 collections:
   cs_resources:

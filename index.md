@@ -7,5 +7,3 @@ layout: home
 ---
 
 Personal website of developer and educational technologist Jared Rigby.
-
-Click through the pages to learn more about the web, linux, programming, hardware and CTF.
