@@ -7,11 +7,11 @@ finished: October 2021
 image: helloworld/HW_web_banner.jpg
 layout: project_single
 ---
-Hello World is a computer science education magazine published every few months by the Raspberry Pi Foundation.
+[Hello World](https://helloworld.raspberrypi.org/) is a computer science education magazine published every few months by the [Raspberry Pi Foundation](https://raspberrypi.org/).
 
-I was lucky enough to be a contributing author for issue 17 of the magazine (October 2021), where I shared my experiences in teaching with a Gameful style pedagogy - i.e. setting up classwork and assignments using aspects of game design.
+I was lucky enough to be a contributing author for issue 17 of the magazine (October 2021), where I shared my experiences in teaching with a *Gameful* pedagogy - i.e. setting up classwork and assignments using aspects of game design.
 
-The key ideas from game design you can include within a classroon include:
+The key ideas from game design you can include within a classroom include:
 
 - Clear learning goals
 - Identity play (for example, have students pretend to be members of an R&D department)
