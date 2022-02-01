@@ -6,6 +6,6 @@ title: Jared Rigby
 layout: home
 ---
 
-Welcome to my site, I am a educator, hacker and maker currently living in China.
+Welcome to my site, I am a educator, developer and maker currently living in China.
 
 On this site you will find my ramblings about development and prototypes of the projects I'm working on.
