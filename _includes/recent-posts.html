@@ -1,0 +1,15 @@
+    <div class="wrapper wrapper--content">
+      <h2>Latest blog post</h2>
+      <ul class="post">
+          {% for post in site.posts limit:1 %}
+          <li class="post__item">
+              <h2 class="post__link">
+                <a href="{{ post.url }}" href="">{{ post.title }}</a>
+              </h2>
+              <small class="post__date">{{ post.date | date: '%B %d, %Y' }}</small>
+              {{ post.excerpt }}
+              <a href="{{ post.url }}" class="post__button">Read more</a>
+          </li>
+          {% endfor %}
+      </ul>
+    </div>
