@@ -8,7 +8,7 @@ description: >- # this means to ignore newlines until "baseurl:"
   Computer scientist exploring the world of the web, 
   cybersecurity and physical computing.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://www.jaredrigby.co.uk"
 twitter_username: jazibobs
 github_username:  jazibobs
 
@@ -26,8 +26,6 @@ collections:
   projects:
     output: true
     permalink: /projects/:path
-
-url: "https://www.jaredrigby.co.uk"
 
 plugins:
   - jekyll-feed
