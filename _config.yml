@@ -27,8 +27,11 @@ collections:
     output: true
     permalink: /projects/:path
 
+url: "https://www.jaredrigby.co.uk"
+
 plugins:
   - jekyll-feed
+  - jekyll-sitemap
 
 sass:
     sass_dir: _sass
