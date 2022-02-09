@@ -5,7 +5,7 @@ author: Jared
 date:   2022-02-09 23:00:00 +0800
 ---
 
-This is my second post in the [#100daysofcode](https://www.100daysofcode.com/) challenge series. On this page I will detail what I have covered
+This is my second post in the [#100daysofcode](https://www.100daysofcode.com/) challenge series. On this page I will detail what I have covered during days 11 to 20.
 
 A reminder of the rules for the challenge:
 
