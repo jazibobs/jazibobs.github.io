@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "1 to 10 - #100DaysOfCode"
+title:  "11 to 20 - #100DaysOfCode"
 author: Jared
-date:   2022-02-01 14:00:00 +0800
+date:   2022-02-09 23:00:00 +0800
 ---
 
 This is my second post in the [#100daysofcode](https://www.100daysofcode.com/) challenge series. On this page I will detail what I have covered
