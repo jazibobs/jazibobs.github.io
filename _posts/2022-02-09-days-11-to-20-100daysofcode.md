@@ -20,6 +20,10 @@ After building a simple Android shooter game using Godot last week, I thought I 
 
 ### Day 12 - 10 Feb 2022
 
+I continued work on my multiplayer Godot projects, today I learnt about [sending messages between client and server (and vise-versa) using RPCs](https://docs.godotengine.org/en/stable/tutorials/networking/high_level_multiplayer.html#rpc) as well as how to better structure persistent data for my projects using the [Singletons design pattern](https://docs.godotengine.org/en/stable/tutorials/scripting/singletons_autoload.html).
+
+[Learn more by checking out the Godot documentation](https://docs.godotengine.org/en/stable/tutorials/networking/high_level_multiplayer.html)
+
 ### Day 13 - 11 Feb 2022
 
 ### Day 14 - 12 Feb 2022
