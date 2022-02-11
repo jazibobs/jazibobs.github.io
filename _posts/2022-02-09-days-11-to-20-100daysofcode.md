@@ -26,6 +26,10 @@ I continued work on my multiplayer Godot projects, today I learnt about [sending
 
 ### Day 13 - 11 Feb 2022
 
+Learnt about building drag and drop user interfaces using Godot, many thanks for [Bramwell Williams](https://twitter.com/bramreth) for providing and excellent tutorial about this on YouTube.
+
+[Learn more by watching the video here](https://www.youtube.com/watch?v=iSpWZzL2i1o)
+
 ### Day 14 - 12 Feb 2022
 
 ### Day 15 - 13 Feb 2022
