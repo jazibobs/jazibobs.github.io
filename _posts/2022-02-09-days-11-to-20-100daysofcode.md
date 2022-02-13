@@ -32,7 +32,11 @@ Learnt about building drag and drop user interfaces using Godot, many thanks for
 
 ### Day 14 - 12 Feb 2022
 
+I spent some time developing my knowledge of InfoSec and the Linux terminal by learning about *fuzzing* websites using `ffuf`. I worked through the fuzzing module on HTB academy and learnt web discovery techniques for hidden files, directories and subdomains.
+
 ### Day 15 - 13 Feb 2022
+
+I didn't have a huge amount of time available to continue with a larger project so I had a look at the freecodecamp.org website for the first time in a couple of years. I spent some time working through the Scientific Computing using Python track and was pleased to see that the quality of resources are still as high as ever.
 
 ### Day 16 - 14 Feb 2022
 
