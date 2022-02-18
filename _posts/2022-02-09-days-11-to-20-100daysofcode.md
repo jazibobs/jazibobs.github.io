@@ -40,10 +40,15 @@ I didn't have a huge amount of time available to continue with a larger project 
 
 ### Day 16 - 14 Feb 2022
 
+I attended a session of Intel's AI4Youth program where we got to work with some examples of natural language processing (NLP).
 ### Day 17 - 15 Feb 2022
+
+I started development of a small web app using Vue 3 at work, the school is updating its branding and wants to give staff a way of dynamically building their own email signature to include EdTech credentials that they have achieved.
 
 ### Day 18 - 16 Feb 2022
 
+I attended a session of Intel's AI4Youth program where we covered some practical applications of computer vision using the OpenCV library.
 ### Day 19 - 17 Feb 2022
 
+I continued development of an email signature generator for work. I offered to make this app so I'd have an excuse to work with Vue 3.
 ### Day 20 - 18 Feb 2022
