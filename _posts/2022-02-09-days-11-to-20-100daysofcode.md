@@ -32,14 +32,32 @@ Learnt about building drag and drop user interfaces using Godot, many thanks for
 
 ### Day 14 - 12 Feb 2022
 
+Spent some time learning about information security and how to fluff web servers using the `ffuf` Linux command line tool. 
+
+[The course can be found here](https://academy.hackthebox.com/module/details/54)
+
 ### Day 15 - 13 Feb 2022
+
+Took some time to review my Python knowledge by completing all of the coursework on the Scientific Computing with Python module on [freeCodeCamp](https://www.freecodecamp.org)
+
+[Learn Python on freeCodeCamp](https://www.freecodecamp.org/learn/scientific-computing-with-python/)
 
 ### Day 16 - 14 Feb 2022
 
+As part of my professional development with Dulwich College Beijing, I've been enrolled in Intel's AI4Youth program to cover ways of better embedding AI within the computer science curriculum. Looking forward to exploring more of the course in the coming days.
+
 ### Day 17 - 15 Feb 2022
+
+I spent some time creating a web development project for work as they are in the midst of a minor re-brand. All staff will require a new email signature so I'm creating an email signature builder so I have an excuse to explore working with Vue3.
 
 ### Day 18 - 16 Feb 2022
 
+Back with the fine people of Intel this evening learning more about the AI4Youth program. This evening's session covered building simple image classifiers using OpenCV.
+
 ### Day 19 - 17 Feb 2022
 
+Spent more time working on my email signature builder started earlier in the week. I added the ability for staff members to add logos of their external EdTech credentials in additional to building a dark mode previewer.
+
 ### Day 20 - 18 Feb 2022
+
+Friday night with the team at Intel for AI4Youth. Natural language processing was the focus of the evening which saw us build some simple ChatBox applications.
