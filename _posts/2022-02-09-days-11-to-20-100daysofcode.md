@@ -32,7 +32,7 @@ Learnt about building drag and drop user interfaces using Godot, many thanks for
 
 ### Day 14 - 12 Feb 2022
 
-Spent some time learning about information security and how to fluff web servers using the `ffuf` Linux command line tool. 
+Spent some time learning about information security and how to fuzz web servers using the `ffuf` Linux command line tool. 
 
 [The course can be found here](https://academy.hackthebox.com/module/details/54)
 
