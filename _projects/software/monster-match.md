@@ -12,8 +12,6 @@ A puzzle game created for [Ludum Dare 50](https://ldjam.com/events/ludum-dare/50
 
 This weekend game jam required entrants to follow the theme: "Delay the inevitable".
 
-![Puzzle shapes used in monster match](/assets/projects/monster-match/shapes.png)
-
 A monster is coming to destroy the city. Only by matching sets of 3 or more coloured blocks can you delay the attack.
 
 This project was built over 3 days using the Godot game engine.

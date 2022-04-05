@@ -52,4 +52,4 @@ Decided on a concept of my game jam project. I'm creating my first ever match-3 
 
 Continued to work on my Godot project for Lurum Dare 50, my match-3 game is now able to register colour combinations and automatically refill the board during play.
 
-![Monster match combination system]("/assets/projects/monster-match/wip-220402-1955.gif")
+![Monster match combination system](/assets/projects/monster-match/wip-220402-1955.gif)
