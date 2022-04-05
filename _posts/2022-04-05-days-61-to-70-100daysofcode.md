@@ -16,13 +16,13 @@ A reminder of the rules for the challenge:
 
 Continued work on my [LD50 game Monster Match](https://ldjam.com/events/ludum-dare/50/monster-match), created multiple levels which build in difficulty today.
 
-![Monster Match Difficulty](/assets/projects/monster-match/wip-220403-1050.gif)
+![Monster Match Difficulty](/assets/projects/monster-match/wip-220403-1510.gif)
 
 ### Day 62 - 1 Apr 2022
 
 Worked on improving the UI of my match 3 game. The monster approaches the city as time runs out during the level.
 
-![Monster Match UI](/assets/projects/monster-match/wip-220403-1510.gif)
+![Monster Match UI](/assets/projects/monster-match/wip-220403-1050.gif)
 
 ### Day 63 - 2 Apr 2022
 
