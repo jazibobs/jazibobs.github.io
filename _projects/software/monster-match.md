@@ -22,4 +22,4 @@ The game has been released as a [HTML5 game on itch.io](https://jazibobs.itch.io
 
 [ElysiaGriffin](https://www.twitch.tv/elysiagriffin) was kind enough to feature my game as part of her LD50 Twitch stream. Thanks to Elysia and her channel for some really useful feedback on what to improve.
 
-<iframe src="https://clips.twitch.tv/embed?clip=KindPeacefulDogBloodTrail-4oAYNC6JzOcL_6Pb&parent=www.example.com" frameborder="0" allowfullscreen="true" scrolling="no" height="378" width="620"></iframe>
+<iframe src="https://clips.twitch.tv/embed?clip=KindPeacefulDogBloodTrail-4oAYNC6JzOcL_6Pb&parent=www.jaredrigby.co.uk" frameborder="0" allowfullscreen="true" scrolling="no" height="378" width="620"></iframe>
