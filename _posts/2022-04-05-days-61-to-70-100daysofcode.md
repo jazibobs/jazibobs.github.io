@@ -54,6 +54,7 @@ Spent some time adding some more polish to my Godot game, my specific focus for 
 ### Day 68 - 7 Apr 2022
 
 Further work on my game jam entry for black and white jam #8. Created the main menu and UI systems and actually remembered to link my social media profiles to the credits page!
+
 ### Day 69 - 8 Apr 2022
 
 Learnt how to control the Godot audio server using GDScript. Thanks to this, I was able to create an options page for the player to independently select their own audio settings for background music and sound effects.

@@ -5,8 +5,7 @@
 title: Jared Rigby
 email: talk@jaredrigby.co.uk
 description: >- # this means to ignore newlines until "baseurl:"
-  Computer scientist exploring the world of the web, 
-  cybersecurity and physical computing.
+  Personal ramblings of educational technologist Jared Rigby
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://www.jaredrigby.co.uk"
 twitter_username: jazibobs
