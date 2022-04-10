@@ -14,11 +14,11 @@ A reminder of the rules for the challenge:
 
 ### Day 71 - 10 Apr 2022
 
-Spent some time adding OpenGraph tags to the Jekyll template that powers this site. From now on, any links shared on social media should be rendered with a lovely preview of the content.
+Spent some time adding Open Graph tags to the Jekyll template that powers this site. From now on, any links shared on social media should be rendered with a lovely preview of the content.
 
 Here's an example from Twitter:
 
-![OpenGraph preview for this website](/assets/blog/100doc-opengraph.png)
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Day 71 of <a href="https://twitter.com/hashtag/100DaysOfCode?src=hash&amp;ref_src=twsrc%5Etfw">#100DaysOfCode</a> - Finally got round to adding OpenGraph tags to my personal website. Hopefully the social media previews will be a little bit more beautiful from now on...<a href="https://t.co/TjDsOnr5ZF">https://t.co/TjDsOnr5ZF</a></p>&mdash; Jared Rigby 💻 (@jazibobs) <a href="https://twitter.com/jazibobs/status/1513170846050828291?ref_src=twsrc%5Etfw">April 10, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
 
 ### Day 72 - 11 Apr 2022
 
