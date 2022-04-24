@@ -4,7 +4,7 @@ category: [software, gamedev]
 domain: https://jazibobs.itch.io/tonalities
 started: April 2022
 finished: April 2022
-image: monster-match/monster-match.png
+image: tonalities/tonalities.png
 layout: project_single
 ---
 
