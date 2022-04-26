@@ -12,7 +12,7 @@ A puzzle game created for [Black and White Jam #8](https://itch.io/jam/black-and
 
 This game jam required entrants to build a completely black and white game which followed the theme: "Loop".
 
-I created a ambient, looping, puzzle game loosely inspired by electroplankton.
+I created an ambient, looping, puzzle game loosely inspired by electroplankton.
 
 This project was built over 5 days using the Godot game engine.
 

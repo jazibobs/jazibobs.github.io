@@ -20,7 +20,20 @@ Spent some time updating this website with the details of what projects I've bee
 
 ### Day 82 - 21 Apr 2022
 
+Currently working through Zenva academy's HTML5 game development course. Today I completed a small prototype of a flashcard game for language learning.
+
+[The project is available on CodePen.io](https://codepen.io/jazibobs/pen/LYeoRgL)
+
+<p class="codepen" data-height="300" data-default-tab="js,result" data-slug-hash="LYeoRgL" data-user="jazibobs" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+  <span>See the Pen <a href="https://codepen.io/jazibobs/pen/LYeoRgL">
+  Zenva - Simple Language Learning Game</a> by Jared Rigby (<a href="https://codepen.io/jazibobs">@jazibobs</a>)
+  on <a href="https://codepen.io">CodePen</a>.</span>
+</p>
+<script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
+
 ### Day 83 - 22 Apr 2022
+
+Still working through the Zenva HTML5 game development course. Spent today learning about creating animations in the Phaser game engine.
 
 ### Day 84 - 23 Apr 2022
 
