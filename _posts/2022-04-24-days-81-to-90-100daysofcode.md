@@ -37,6 +37,10 @@ Still working through the Zenva HTML5 game development course. Spent today learn
 
 ### Day 84 - 23 Apr 2022
 
+Completed another game prototype as part of the Zenva HTML5 game development learning path.
+
+[A certificate of my progress can be seen here.](https://academy.zenva.com/certificate/6e5588117c36)
+
 ### Day 85 - 24 Apr 2022
 
 ### Day 86 - 25 Apr 2022
