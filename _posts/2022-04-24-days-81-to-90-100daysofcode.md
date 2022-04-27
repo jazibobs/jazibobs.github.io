@@ -43,6 +43,7 @@ Completed another game prototype as part of the Zenva HTML5 game development lea
 
 ### Day 85 - 24 Apr 2022
 
+Spent some time refreshing my knowledge of asynchronous programming in JavaScript on Zenva. Promises and Async/Await was the focus of the day today.
 ### Day 86 - 25 Apr 2022
 
 ### Day 87 - 26 Apr 2022
