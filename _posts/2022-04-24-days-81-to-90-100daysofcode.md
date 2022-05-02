@@ -46,10 +46,24 @@ Completed another game prototype as part of the Zenva HTML5 game development lea
 Spent some time refreshing my knowledge of asynchronous programming in JavaScript on Zenva. Promises and Async/Await was the focus of the day today.
 ### Day 86 - 25 Apr 2022
 
+Completed the asynchronous programming with JavaScript course on Zenva and received a lovely certificate for my efforts.
+
+[Zenva - Build a dynamic data table](https://academy.zenva.com/certificate/8eb0b59c254e)
+
 ### Day 87 - 26 Apr 2022
+
+Continuing with Zenva's HTML5 game development courses, I started work on their Express.js API programming module which will I hope will teach me how to create online leader boards for future games.
 
 ### Day 88 - 27 Apr 2022
 
+Completed the Express.js course on Zenva. Honestly not as in-depth as I would have hoped. I'll still need to spend some time reading through the Passport.js documentation to learn more about SSO best practices.
+
 ### Day 89 - 28 Apr 2022
 
+Back in the world of Phaser for the next part of the Zenva HTML5 game programming course. I learnt about building user interfaces, managing scenes and how to build a pre-loader for games.
+
+[I also received another lovely certificate](https://academy.zenva.com/certificate/07801c9b7067)
+
 ### Day 90 - 29 Apr 2022
+
+Working on the final Phaser project from the Zenva HTML5 game programming course. I'll be learning about their in-build physics system to build a simple platformer based on Donkey Kong.
