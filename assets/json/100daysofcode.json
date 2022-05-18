@@ -2,31 +2,6 @@
 	"name": "#100DaysOfCode Reflection",
 	"children": [
 		{
-			"name": "InfoSec",
-			"children": [
-				{
-					"name": "Python",
-					"category": "InfoSec",
-					"value": 2
-				},
-				{
-					"name": "BASH",
-					"category": "InfoSec",
-					"value": 7
-				},
-				{
-					"name": "Node.js",
-					"category": "InfoSec",
-					"value": 3
-				},
-				{
-					"name": "MongoDB",
-					"category": "InfoSec",
-					"value": 2
-				}
-			]
-		},
-		{
 			"name": "GameDev",
 			"children": [
 				{
@@ -48,56 +23,6 @@
 					"name": "Kontra.js",
 					"category": "GameDev",
 					"value": 3
-				}
-			]
-		},
-		{
-			"name": "AI",
-			"children": [
-				{
-					"name": "Python",
-					"category": "AI",
-					"value": 5
-				}
-			]
-		},
-		{
-			"name": "General",
-			"children": [
-				{
-					"name": "Python",
-					"category": "General",
-					"value": 1
-				}
-			]
-		},
-		{
-			"name": "DataVis",
-			"children": [
-				{
-					"name": "D3.js",
-					"category": "DataVis",
-					"value": 17
-				}
-			]
-		},
-		{
-			"name": "Teaching",
-			"children": [
-				{
-					"name": "Pseudocode",
-					"category": "Teaching",
-					"value": 2
-				},
-				{
-					"name": "Prolog",
-					"category": "Teaching",
-					"value": 1
-				},
-				{
-					"name": "Python",
-					"category": "Teaching",
-					"value": 1
 				}
 			]
 		},
@@ -128,6 +53,82 @@
 					"name": "JavaScript",
 					"category": "Web Dev",
 					"value": 2
+				}
+			]
+		},
+		{
+		
+			"name": "DataVis",
+			"children": [
+				{
+					"name": "D3.js",
+					"category": "DataVis",
+					"value": 17
+				}
+			]
+		},
+		{
+			"name": "InfoSec",
+			"children": [
+				{
+					"name": "Python",
+					"category": "InfoSec",
+					"value": 2
+				},
+				{
+					"name": "BASH",
+					"category": "InfoSec",
+					"value": 7
+				},
+				{
+					"name": "Node.js",
+					"category": "InfoSec",
+					"value": 3
+				},
+				{
+					"name": "MongoDB",
+					"category": "InfoSec",
+					"value": 2
+				}
+			]
+		},
+		{
+			"name": "AI",
+			"children": [
+				{
+					"name": "Python",
+					"category": "AI",
+					"value": 5
+				}
+			]
+		},
+		{
+			"name": "Teaching",
+			"children": [
+				{
+					"name": "Pseudocode",
+					"category": "Teaching",
+					"value": 2
+				},
+				{
+					"name": "Prolog",
+					"category": "Teaching",
+					"value": 1
+				},
+				{
+					"name": "Python",
+					"category": "Teaching",
+					"value": 1
+				}
+			]
+		},
+		{
+			"name": "General",
+			"children": [
+				{
+					"name": "Python",
+					"category": "General",
+					"value": 1
 				}
 			]
 		}
