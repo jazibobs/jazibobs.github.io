@@ -1,0 +1,135 @@
+{
+	"name": "#100DaysOfCode Reflection",
+	"children": [
+		{
+			"name": "Information Security",
+			"children": [
+				{
+					"name": "Python",
+					"category": "Inforamtion Security",
+					"value": 2
+				},
+				{
+					"name": "BASH",
+					"category": "Inforamtion Security",
+					"value": 7
+				},
+				{
+					"name": "Node.js",
+					"category": "Inforamtion Security",
+					"value": 3
+				},
+				{
+					"name": "MongoDB",
+					"category": "Inforamtion Security",
+					"value": 2
+				}
+			]
+		},
+		{
+			"name": "Game Development",
+			"children": [
+				{
+					"name": "GDScript",
+					"category": "Game Development",
+					"value": 23
+				},
+				{
+					"name": "Unity",
+					"category": "Game Development",
+					"value": 1
+				},
+				{
+					"name": "Phaser.js",
+					"category": "Game Development",
+					"value": 11
+				},
+				
+					"name": "Kontra.js",
+					"category": "Game Development",
+					"value": 3
+				}
+			]
+		},
+		{
+			"name": "AI",
+			"children": [
+				{
+					"name": "Python",
+					"category": "AI",
+					"value": 5
+				}
+			]
+		},
+		{
+			"name": "General",
+			"children": [
+				{
+					"name": "Python",
+					"category": "General",
+					"value": 1
+				}
+			]
+		},
+		{
+			"name": "Data Visualisation",
+			"children": [
+				{
+					"name": "D3.js",
+					"category": "Data Visualisation",
+					"value": 17
+				}
+			]
+		},
+		{
+			"name": "Teaching",
+			"children": [
+				{
+					"name": "Pseudocode",
+					"category": "Teaching",
+					"value": 2
+				},
+				{
+					"name": "Prolog",
+					"category": "Teaching",
+					"value": 1
+				},
+				{
+					"name": "Python",
+					"category": "Teaching",
+					"value": 2
+				}
+			]
+		},
+		{
+			"name": "Web Development",
+			"children": [
+				{
+					"name": "Vue",
+					"category": "Web Development",
+					"value": 2
+				},
+				{
+					"name": "Jekyll",
+					"category": "Web Development",
+					"value": 8
+				},
+				{
+					"name": "Node.js",
+					"category": "Web Development",
+					"value": 6
+				},
+				{
+					"name": "WordPress",
+					"category": "Web Development",
+					"value": 3
+				},
+				{
+					"name": "JavaScript",
+					"category": "Web Development",
+					"value": 2
+				}
+			]
+		}
+	]
+}
