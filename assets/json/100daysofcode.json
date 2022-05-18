@@ -2,7 +2,7 @@
 	"name": "#100DaysOfCode Reflection",
 	"children": [
 		{
-			"name": "Information Security",
+			"name": "InfoSec",
 			"children": [
 				{
 					"name": "Python",
@@ -27,7 +27,7 @@
 			]
 		},
 		{
-			"name": "Game Development",
+			"name": "GameDev",
 			"children": [
 				{
 					"name": "GDScript",
@@ -72,7 +72,7 @@
 			]
 		},
 		{
-			"name": "Data Visualisation",
+			"name": "DataVis",
 			"children": [
 				{
 					"name": "D3.js",
@@ -102,7 +102,7 @@
 			]
 		},
 		{
-			"name": "Web Development",
+			"name": "Web Dev",
 			"children": [
 				{
 					"name": "Vue",
