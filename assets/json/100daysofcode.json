@@ -6,22 +6,22 @@
 			"children": [
 				{
 					"name": "Python",
-					"category": "Information Security",
+					"category": "InfoSec",
 					"value": 2
 				},
 				{
 					"name": "BASH",
-					"category": "Information Security",
+					"category": "InfoSec",
 					"value": 7
 				},
 				{
 					"name": "Node.js",
-					"category": "Information Security",
+					"category": "InfoSec",
 					"value": 3
 				},
 				{
 					"name": "MongoDB",
-					"category": "Information Security",
+					"category": "InfoSec",
 					"value": 2
 				}
 			]
@@ -31,22 +31,22 @@
 			"children": [
 				{
 					"name": "GDScript",
-					"category": "Game Development",
+					"category": "GameDev",
 					"value": 23
 				},
 				{
 					"name": "Unity",
-					"category": "Game Development",
+					"category": "GameDev",
 					"value": 1
 				},
 				{
 					"name": "Phaser.js",
-					"category": "Game Development",
+					"category": "GameDev",
 					"value": 11
 				},
 				{
 					"name": "Kontra.js",
-					"category": "Game Development",
+					"category": "GameDev",
 					"value": 3
 				}
 			]
@@ -76,7 +76,7 @@
 			"children": [
 				{
 					"name": "D3.js",
-					"category": "Data Visualisation",
+					"category": "DataVis",
 					"value": 17
 				}
 			]
@@ -106,27 +106,27 @@
 			"children": [
 				{
 					"name": "Vue",
-					"category": "Web Development",
+					"category": "Web Dev",
 					"value": 2
 				},
 				{
 					"name": "Jekyll",
-					"category": "Web Development",
+					"category": "Web Dev",
 					"value": 8
 				},
 				{
 					"name": "Node.js",
-					"category": "Web Development",
+					"category": "Web Dev",
 					"value": 6
 				},
 				{
 					"name": "WordPress",
-					"category": "Web Development",
+					"category": "Web Dev",
 					"value": 3
 				},
 				{
 					"name": "JavaScript",
-					"category": "Web Development",
+					"category": "Web Dev",
 					"value": 2
 				}
 			]
