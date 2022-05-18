@@ -30,7 +30,7 @@
 			"name": "GameDev",
 			"children": [
 				{
-					"name": "GDScript",
+					"name": "Godot",
 					"category": "GameDev",
 					"value": 23
 				},
