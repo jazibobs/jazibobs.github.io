@@ -6,22 +6,22 @@
 			"children": [
 				{
 					"name": "Python",
-					"category": "Inforamtion Security",
+					"category": "Information Security",
 					"value": 2
 				},
 				{
 					"name": "BASH",
-					"category": "Inforamtion Security",
+					"category": "Information Security",
 					"value": 7
 				},
 				{
 					"name": "Node.js",
-					"category": "Inforamtion Security",
+					"category": "Information Security",
 					"value": 3
 				},
 				{
 					"name": "MongoDB",
-					"category": "Inforamtion Security",
+					"category": "Information Security",
 					"value": 2
 				}
 			]
