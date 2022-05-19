@@ -5,7 +5,7 @@ author: Jared
 date:   2022-03-03 21:30:00 +0800
 ---
 
-This is my third post in the [#100daysofcode](https://www.100daysofcode.com/) challenge series. On this page I will detail what I have covered during days 31 to 40.
+This is my fourth post in the [#100daysofcode](https://www.100daysofcode.com/) challenge series. On this page I will detail what I have covered during days 31 to 40.
 
 A reminder of the rules for the challenge:
 

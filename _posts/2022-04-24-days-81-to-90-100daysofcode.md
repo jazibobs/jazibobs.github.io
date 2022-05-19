@@ -5,7 +5,7 @@ author: Jared
 date:   2022-04-24 18:15:00 +0800
 ---
 
-This is my eighth post in the [#100daysofcode](https://www.100daysofcode.com/) challenge series. On this page I will detail what I have covered during days 81 to 90.
+This is my ninth post in the [#100daysofcode](https://www.100daysofcode.com/) challenge series. On this page I will detail what I have covered during days 81 to 90.
 
 A reminder of the rules for the challenge:
 

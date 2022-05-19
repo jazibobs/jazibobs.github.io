@@ -5,7 +5,7 @@ author: Jared
 date:   2022-04-02 21:30:00 +0800
 ---
 
-This is my fifth post in the [#100daysofcode](https://www.100daysofcode.com/) challenge series. On this page I will detail what I have covered during days 51 to 60.
+This is my sixth post in the [#100daysofcode](https://www.100daysofcode.com/) challenge series. On this page I will detail what I have covered during days 51 to 60.
 
 A reminder of the rules for the challenge:
 
