@@ -1,5 +1,5 @@
 ---
-title: Hello World Article - Gameful education
+title: Hello World Issue 17 - Gameful education
 category: [education]
 domain: https://helloworld.raspberrypi.org/issues/17
 started: July 2021
