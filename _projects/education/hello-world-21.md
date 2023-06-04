@@ -12,4 +12,4 @@ I was recently invited back to write for the [Raspberry Pi Foundation's](https:/
 
 In this article, I discussed the educational benefits of using game jams as an educational exercise. In a game we ran at our school, we challenged students to create a green-themed game that related to one of the United Nation's Social Development Goals in just a single weekend. It was a great opportunity for students to work collaboratively on a real world software development task that also required many links to other areas of the curriculum such as maths, art and music.
 
-More details can be found on page 53 of [Hello World Issue 21](https://helloworld.raspberrypi.org/issues/21)
+More details can be found on page 54 of [Hello World Issue 21](https://helloworld.raspberrypi.org/issues/21)
